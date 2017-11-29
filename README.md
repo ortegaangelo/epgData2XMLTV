@@ -33,7 +33,7 @@ python app.py -p 12345678910 -o /path/
 
 ## Info
 
-Check your playlist.m3u file and change the names according to the <ch0>-Tag in the channel.xml file. 
+Check your playlist.m3u file and change the names according to the ch0-Tag in the channel.xml file. 
 ```
         <ch0>Romance TV</ch0>
 ```
