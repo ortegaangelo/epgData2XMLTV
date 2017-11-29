@@ -29,6 +29,13 @@ Specify the output path for the "mixed" xml.
 python app.py -p 12345678910 -o /path/
 ```
 
+## Info
+
+Check your playlist.m3u file and change the names according to the <ch0>-Tag in the channel.xml file. 
+```
+        <ch0>Romance TV</ch0>
+```
+
 ## File Structure
 
 epgdata_files = The input folder, all fetched data lies in there. 
@@ -38,5 +45,3 @@ epgdata_files = The input folder, all fetched data lies in there.
 app.py = The application start file.
 
 channel.xml = A list of channels used also for converting the data from epgdata - Do not change this.
-
-**playlist.m3u = The playlist for Telekom IPTV in Germany.**
