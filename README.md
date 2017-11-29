@@ -1,7 +1,9 @@
 # EPGData2XMLTV
 
 Use EPG Data from www.epgdata.com on your Kodi Simple IPTV Client.
+
 Since epgdata.com only provides one xml file (in a different structure) a day,
+
 I had to find a solution that automatically fetches the provided data and merges it into a xml file. 
 
 
