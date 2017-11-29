@@ -32,7 +32,11 @@ python app.py -p 12345678910 -o /path/
 ## File Structure
 
 epgdata_files = The input folder, all fetched data lies in there. 
-###output = The output folder with the mixed.xml you can use on Kodi Simple IPTV Client.
+
+**output = The output folder with the mixed.xml you can use on Kodi Simple IPTV Client.**
+
 app.py = The application start file.
+
 channel.xml = A list of channels used also for converting the data from epgdata - Do not change this.
-###playlist.m3u = The playlist for Telekom IPTV in Germany.
+
+**playlist.m3u = The playlist for Telekom IPTV in Germany.**
