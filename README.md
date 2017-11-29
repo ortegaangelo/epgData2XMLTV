@@ -44,4 +44,4 @@ epgdata_files = The input folder, all fetched data lies in there.
 
 app.py = The application start file.
 
-channel.xml = A list of channels used also for converting the data from epgdata - Do not change this.
+channel.xml = A list of channels used for converting the data from epgdata - Do not change this.
