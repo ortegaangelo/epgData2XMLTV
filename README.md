@@ -11,6 +11,7 @@ I had to find a solution that automatically fetches the provided data and merges
 
 Get the current 6 days of epg data provided and merge them into a single xml file.
 Data older than Current-Day - 1 is automatically cleaned up.
+Only data what is not yet downloaded will be fetched, no unnecessary GET Requests are made!
 ```
 python app.py -p 12345678910
 ```
