@@ -10,7 +10,7 @@ I had to find a solution that automatically fetches the provided data and merges
 ## How it works
 
 Get the current 6 days of epg data provided and merge them into a single xml file.
-Data older than Current-Day - 1 is automatically cleaned up.
+Data older than "Yesterday" is automatically cleaned up.
 
 Only data that is not yet downloaded will be fetched, no unnecessary GET Requests are made!
 ```
