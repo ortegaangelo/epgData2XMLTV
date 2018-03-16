@@ -108,7 +108,7 @@ class App:
         new_doc = impl.createDocument(None, "tv", None)
         top_element = new_doc.documentElement
         top_element.setAttribute("generator-info-name", 'EPGData2XMLTV')
-        top_element.setAttribute("generator-info-url", 'http://github.com/angeloortega/EPGData2XMLTV')
+        top_element.setAttribute("generator-info-url", 'http://github.com/ortegaangelo/EPGData2XMLTV')
 
         # Generate Channels
         for program in channel_items:
