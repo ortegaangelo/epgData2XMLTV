@@ -10,7 +10,9 @@ I had to find a solution that automatically fetches the provided data and merges
 ## How it works
 
 Get the current 6 days of epg data provided and merge them into a single xml file.
-Data older than Current-Day - 1 is automatically cleaned up.
+Data older than "Yesterday" is automatically cleaned up.
+
+Only data that is not yet downloaded will be fetched, no unnecessary GET Requests are made!
 ```
 python app.py -p 12345678910
 ```
@@ -33,7 +35,7 @@ python app.py -p 12345678910 -o /path/
 
 ## Info
 
-Check your playlist.m3u file and change the names according to the <ch0>-Tag in the channel.xml file. 
+Check your playlist.m3u file and change the names according to the ch0-Tag in the channel.xml file. 
 ```
         <ch0>Romance TV</ch0>
 ```
